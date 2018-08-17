@@ -1,0 +1,94 @@
+body {
+    background-image: url("/static/image/cmck44y.png");
+
+}
+.container-fluid {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    margin-top: 200px;
+    padding-bottom: 100px;
+    color: #ff9814;
+    background-color: rgba(8, 8, 8, 0.38);
+}
+
+#about_me {
+    font-size: 15px;
+    margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #f5efef;
+    background-color: rgba(8, 8, 8, 0.38);
+    text-align: justify;
+}
+.intro {
+    padding-top: 20px;
+    margin-left: 10px;
+    height: 100px;
+    width: 100%;
+}
+.form-control {
+    font-family: Arial;
+}
+.footer {
+  color:#f5efef;
+  font-size: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+
+}
+.btn-default{
+    font-family: Arial;
+}
+button.btn.btn-default:hover{
+    background-color: #ff8b23;
+}
+
+p {
+  font-size: 1.2em;
+}
+.container-fluid button{
+  margin-top: 30%;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-image: url("/static/image/zegar_2.png");
+    }
+    .intro h1 {
+        font-size: 22px;
+    }
+    label {
+        font-size: 13px;
+    }
+    .container-fluid {
+      padding-bottom: 30px;
+        background-color: rgba(8, 8, 8, 0.76);
+    }
+    .btn {
+        width: 105px;
+    }
+    button.btn {
+        font-size: 15px;
+    }
+    input.form-control {
+        font-size: 8px;
+    }
+  .container-fluid button {
+    margin-top: 7%;
+  }
+  .footer {
+    color:#f5efef;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  #about_me {
+    font-size: 12px;
+    margin-top: 30px;
+    padding-bottom: 40%;
+  }
+
+}
