@@ -1,14 +1,4 @@
-#!bin/bash
 
-wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz 
-tar -xvf node-v4.0.0-linux-armv7l.tar.gz 
-cd node-v4.0.0-linux-armv7l
-sudo cp -R * /usr/local/
-
-cd /var/www/html
-
-npm install -g bower
-
-bower install --allow-root
-
-
+echo "*/15 * * * * /var/www/html/Pi-Kitchen-Dashboard/bin/cron.sh" >> /etc/cron.d/weather
+chmod 0644 /etc/cron.d/weater
+service cron start
